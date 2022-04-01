@@ -38,7 +38,7 @@
                 // redirect: 'follow'
             };
             // make API call with parameters and use promises to get response
-            fetch("https://2vnad5hlt4.execute-api.us-east-1.amazonaws.com/prod/hello", requestOptions)
+            fetch("https://9fhz3hhcrg.execute-api.us-east-1.amazonaws.com/prod/hello", requestOptions)
             .then(response => response.text())
             .then(result => alert(JSON.parse(result).body))
             .catch(error => console.log('error', error));
